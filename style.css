@@ -3,3 +3,50 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+/* navbar styling */
+#nav{
+    position: sticky;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+    background-color: #f80a99;
+    color: white;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+#nav:hover{
+    background-color: #ef298c;
+    color: rgb(255, 255, 255);
+}
+
+.nav-list{
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: ml;
+    justify-content:flex-end;
+    gap: 20px;
+}
+
+.nav-links:hover{
+  color:black;
+}
+
+.nav-download-btn{
+    height: 50px;
+    width: 120px;
+    border-radius: 23px;
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 1.1em;
+}
+.nav-download-btn:hover{
+    background-color: rgb(242, 229, 213);
+    box-shadow: 3px 3px 20px black;
+}
