@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -49,4 +51,73 @@
 .nav-download-btn:hover{
     background-color: rgb(242, 229, 213);
     box-shadow: 3px 3px 20px black;
+}
+
+
+/* first-visit landing page */
+#first-visit{
+    background-color: #f80a99;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.intro h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4.6em;
+    padding-bottom: 20px;
+}
+
+.intro p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+}
+.start-handle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+.start-form label{
+position: absolute;
+opacity: 0;
+z-index: 10;
+}
+
+.start-form input{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+    height: 50px;
+    width: 350px;
+    border-radius: 7px;
+    border: hidden;
+    outline: none;
+    padding: 2px 15px;
+    font-size: 1.3em;
+}
+
+.start-btn{
+    font-family: 'Open Sans', sans-serif;
+    height: 50px;
+    width: 120px;
+    border: hidden;
+    outline: none;
+    border-radius: 7px;
+    padding: 2px 5px;
+    font-size: 1.3em;
+}
+
+.start-btn:hover{
+   box-shadow: 3px 3px 10px black;
+   background-color: rgb(126, 126, 126);
+   color: white;
 }
