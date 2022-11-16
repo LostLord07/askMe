@@ -49,8 +49,9 @@
     font-size: 1.1em;
 }
 .nav-download-btn:hover{
-    background-color: rgb(242, 229, 213);
-    box-shadow: 3px 3px 20px black;
+    box-shadow: 3px 3px 10px black;
+    background-color: rgb(126, 126, 126);
+    color: white;
 }
 
 
