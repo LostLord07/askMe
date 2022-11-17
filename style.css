@@ -123,6 +123,39 @@ z-index: 10;
    color: white;
 }
 
+/* services section */
+#services-id{
+    background-color: #f80a99;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+}
+.services-img{
+    height: 320px;
+    width: 320px;
+    border-radius: 320px;
+}
+.services h3{
+    margin: 10px 0px 4px;
+    font-weight: 900;
+    font-size: 1.3em;
+    letter-spacing: 0.1px;
+}
+.services p{
+    font-size: 1.1em;
+}
+
 @media screen and (max-width: 700px) {
     .intro{
         width: 80%;
